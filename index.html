@@ -1,0 +1,141 @@
+</html>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>BÀI TẬP JS</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Awsome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Main CSS  -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="pills-bai1-tab" data-toggle="pill" href="#pills-bai1" role="tab"
+                aria-controls="pills-bai1" aria-selected="true">Bài 1</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-bai2-tab" data-toggle="pill" href="#pills-bai2" role="tab"
+                aria-controls="pills-bai2" aria-selected="false">Bài 2</a>
+        </li>
+
+    </ul>
+
+    <div class="tab-content" id="pills-tabContent">
+        <!-- Bài 1 -->
+        <div class="tab-pane fade show active" id="pills-bai1" role="tabpanel" aria-labelledby="pills-bai1-tab">
+            <div class="grouptb">
+                <h1>Bài 1: QUẢN LÝ TUYỂN SINH</h1>
+                <button type="button" class="btn btn-warning" id='soDo1'>Bảng Điểm Cộng</button>
+            </div>
+
+            <div id="soDoBaKhoi1">
+                <img src="./img/hinhbai1.svg" alt="bai1">
+            </div>
+            <div class="content">
+                <form class="col-12">
+                    <div class="form-row">
+                        <label class="col-sm-3 col-form-label">Điểm chuẩn của trường: </label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="ipDiemChuan" placeholder="Điểm chuẩn">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label class="col-sm-3 col-form-label">Điểm 3 môn của bạn là: </label>
+                    </div>
+                    <div class="form-group form-inline">
+                        <input type="number" id="monThuNhat" class="form-control" placeholder="Nhập điểm môn thứ 1"
+                            required>
+                        <input type="number" id="monThuHai" class="form-control" placeholder="Nhập điểm môn thứ 2"
+                            required>
+                        <input type="number" id="monThuBa" class="form-control" placeholder="Nhập diểm môn thứ 3"
+                            required>
+                    </div>
+                    <div class="form-row">
+                        <label class="col-sm-3 col-form-label">Bạn thuộc khu vực mấy? </label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="ipMaKhuVuc" placeholder="Mã khu vực">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label class="col-sm-3 col-form-label">Bạn là đối tượng nào? </label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="ipMaDoiTuong" placeholder="Mã đối tượng">
+                        </div>
+                    </div>
+                </form>
+                <div class="buttonCheck">
+                    <button id="btnCheck" class="btn btn-danger">
+                        Kiểm Tra!
+                    </button>
+                </div>
+                <div class="luuY">
+                    <h3>* Lưu Ý</h3>
+                    <p>Nếu không thuộc khu vực ưu tiên nhập X</p>
+                    <P>Nếu không thuộc đối tượng ưu tiên thì nhập 0</P>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="clear"></div>
+        <!-- Bài 2 -->
+        <div class="tab-pane fade" id="pills-bai2" role="tabpanel" aria-labelledby="pills-bai2-tab">
+
+
+            <div class="grouptb">
+                <h1>Bài 2: Tính tiền điện</h1>
+                <button type="button" class="btn btn-warning" id='soDo2'>Bảng giá tiền điện</button>
+            </div>
+
+            <div id="soDoBaKhoi2">
+                <img src="./img/bangGiaDien.svg" alt="bai2">
+            </div>
+            <div class="content">
+                <div class="form-group ">
+                    <h1>Tính Tiền Điện</h1>
+                    <input type="text" class="form-control" name="" id="ten" aria-describedby="helpId"
+                        placeholder="Nhập vào tên của bạn">
+                    <input type="number" class="form-control" name="" id="soDien" aria-describedby="helpId"
+                        placeholder="Nhập vào số điện tiêu thụ">
+                    <div class="button">
+                        <button id="btnTinhTien" class="btn btn-warning">
+                            Tính Tiền!
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="clear"></div>
+
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</body>
+
+</html>

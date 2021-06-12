@@ -1,0 +1,182 @@
+    /* GLOBAL  */
+    body{
+        background: linear-gradient(to right,#fbbd61,#ec7532);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .clear{
+        clear: both;
+    }
+    #pills-tab{
+    justify-content: center;
+    margin-top: 20px;
+    
+    }
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    .nav-item{
+        margin:0 15px ;
+    }
+    .nav-item a{
+        color: #fff;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    #pills-tabContent{
+        background: #212529;
+        height: 100%;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        color: #fff;
+        background-color: #212529;
+        transition: all .5s;
+    }
+    .nav-pills .nav-link:hover{
+        background-color: rgba(33, 37, 41, 0.233);
+    }
+    /* BÀI 1 */
+    #pills-bai1{
+        background: #212529;
+    }
+    #pills-bai1 .grouptb{
+    position: relative;
+    }
+    #pills-bai1 .grouptb h1{
+        color: #fff;
+        text-align: center;
+    }
+    #pills-bai1 .grouptb p{
+        color: #fff;
+        text-align: center;
+    }
+    #soDo1{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    #pills-bai1 .form-group{
+        border-radius: 10px;
+        width: 70%;
+    }
+    #pills-bai1 .form-control{
+        width: 15%;
+        text-align: center;
+    }
+    #pills-bai1 .form-row label{
+        color: #fff;
+        font-size: 20px;
+        text-align:right;
+    }
+    .content .button{
+        text-align: center;
+        margin: 20px 0;
+    }
+    #thongTinLuong{
+        text-align: center;
+    }
+    #thongTinLuong h3{
+        font-weight: bolder;
+    }
+    #thongTinLuong p{
+        font-size: 30px;
+        margin: 0;
+    }
+    .hienThiTien sup, .hienThiTien p{
+        display: inline-block;
+        font-size: 20px;
+    }
+    #soDoBaKhoi1{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #pills-bai1 .form-inline .form-control{
+        width: 20%;
+        margin: 0 15px;
+    }
+    #pills-bai1 .form-inline{
+        justify-content:flex-end;
+    }
+    #pills-bai1 .luuY{
+        color: #fff;
+        margin-left: 50px;
+    }
+    #pills-bai1 .buttonCheck{
+        text-align: center;
+    }
+    /* BÀI 2 */
+    #pills-bai2{
+        background: #212529;
+    }
+    #pills-bai2 .grouptb{
+       position: relative;
+    }
+    #soDo2{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    #pills-bai2 h1{
+        text-align: center;
+        color: #fff;
+        padding-top: 15px;
+    }
+    #pills-bai2 .content{
+        width: 40%;
+        margin: 0 auto;
+        
+    }
+    #pills-bai2 .form-group{
+        background-color: #fff;
+        border-radius: 10px;
+        width: 70%;
+        margin: 40px auto 0;
+    }
+    #pills-bai2 .form-group h1{
+        background: linear-gradient(to right,#ffc107,#ffc107);
+        border-top-left-radius: 10px ;
+        border-top-right-radius: 10px;
+        padding: 10px 0;
+    }
+    #pills-bai2 .form-group label{
+        color: #fff;
+    }
+    #pills-bai2 .form-group p{
+        color: #000;
+        font-size: 20px;
+        font-weight: 500;
+        padding-left: 10px;
+    }
+    
+    #pills-bai2 .form-control{
+        width: 50%;
+        margin: 20px auto;
+    }
+    .content .button{
+        text-align: center;
+        margin: 20px 0;
+    }
+    #thongTinLuong{
+        text-align: center;
+    }
+    #thongTinLuong h3{
+        font-weight: bolder;
+    }
+    #thongTinLuong p{
+        font-size: 30px;
+        margin: 0;
+    }
+    .hienThiTien sup, .hienThiTien p{
+        display: inline-block;
+        font-size: 20px;
+    }
+    #soDoBaKhoi2{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #pills-bai2 .content .button{
+        padding-bottom: 20px;
+    }
+ 
